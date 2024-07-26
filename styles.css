@@ -40,5 +40,23 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+    background-color: hsl(0, 0%, 95%);
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 45%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 55%);
+}
+
+.operator-button {
+    background-color: hsl(35, 100%, 55%);
+}
+.operator-button:hover {
+    background-color: hsl(35, 100%, 65%);
+}
+.operator-button:active {
+    background-color: hsl(35, 100%, 75%);
 }
